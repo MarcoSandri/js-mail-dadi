@@ -22,6 +22,7 @@ let computerScore = 0;
 start.addEventListener('click',
     
     function() {
+        winLose.innerHTML = "";
 
         let randomUserNumber = Math.floor(Math.random() * 6 + 1);
         user.innerHTML = randomUserNumber;
@@ -37,11 +38,11 @@ start.addEventListener('click',
         }
 
         if(computerScore == 3) {
-            winLose.innerHTML = "Ha vinto il computer";
+            winLose.innerHTML = "Hai perso";
             userScore = 0;
             computerScore = 0;
         } else if(userScore == 3) {
-            winLose.innerHTML = "Ha vinto il computer";
+            winLose.innerHTML = "Hai vinto!";
             userScore = 0;
             computerScore = 0;
         }
