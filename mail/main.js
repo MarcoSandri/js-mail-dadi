@@ -6,7 +6,6 @@ for(let i=0; i < emailList.length; i++) {
 
     if (myEmail == emailList[i]) {
         login = 1;
-    } else {
     }
 }
 

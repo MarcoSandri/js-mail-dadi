@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 0.9vw;
+}
+
+body {
+    background-color: #f0e7d8;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+
+}
+
+.score {
+    margin: 0 0.9vw;
+    height: 10vw;
+    width: 10vw;
+    background-color: white;
+    border: 1.1vw solid #3993DD;
+    border-radius: 3vw 3vw 0 0;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-weight: 700;
+}
+
+.table {
+    height: 30vw;
+    width: 50vw;
+    border-radius: 100vw;
+}
+
+.border {
+    background-color: #A9714B;
+}
+
+.green {
+    outline: 0.7vw solid #63422C;
+    background-color: #005035;
+    transform: scale(0.9, 0.85);
+    box-shadow: inset 0 0 30px #003121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice {  
+    background-color: white;  
+    width: 12vw;  
+    height: 12vw;
+    margin: 0 0.9vw;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* qua test */
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+
+.dot {
+    width: 3vw;
+    height: 3vw;
+    margin: 0.5vw;
+    background-color: black;
+    border-radius: 50%;
+    display: none;
+}
+
+.two,
+.eight {
+    visibility: hidden;
+}
