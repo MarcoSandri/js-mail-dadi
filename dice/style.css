@@ -79,8 +79,6 @@ body {
     height: 12vw;
     margin: 0 0.9vw;
     border-radius: 1.5vw;
-    display: flex;
-    flex-wrap: wrap;
 
     /* qua test */
     justify-content: center;
@@ -94,7 +92,6 @@ body {
     margin: 0.5vw;
     background-color: black;
     border-radius: 50%;
-    display: none;
 }
 
 .two,
@@ -126,4 +123,115 @@ body {
     left: 50%;
     z-index: 9999;
     font-size: 5rem;
+}
+
+
+/* dadi utente */
+
+#userFaceOne,
+#userFaceTwo,
+#userFaceThree,
+#userFaceFour,
+#userFaceFive,
+#userFaceSix {
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+
+#userFaceOne .dot.one,
+#userFaceOne .dot.three,
+#userFaceOne .dot.four,
+#userFaceOne .dot.six,
+#userFaceOne .dot.seven,
+#userFaceOne .dot.nine {
+    visibility: hidden;
+}
+
+#userFaceTwo .dot.three,
+#userFaceTwo .dot.four,
+#userFaceTwo .dot.five,
+#userFaceTwo .dot.six,
+#userFaceTwo .dot.seven,
+#userFaceTwo .dot.eight {
+    visibility: hidden;
+}
+
+#userFaceThree .dot.one,
+#userFaceThree .dot.four,
+#userFaceThree .dot.six,
+#userFaceThree .dot.nine {
+    visibility: hidden;
+}
+
+#userFaceFour .dot.four,
+#userFaceFour .dot.five,
+#userFaceFour .dot.six{
+    visibility: hidden;
+}
+
+#userFaceFive .dot.four,
+#userFaceFive .dot.six{
+    visibility: hidden;
+}
+
+#userFaceSix .dot.five {
+    visibility: hidden;
+}
+
+/* dadi computer */
+
+#computerFaceOne,
+#computerFaceTwo,
+#computerFaceThree,
+#computerFaceFour,
+#computerFaceFive,
+#computerFaceSix {
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+
+#computerFaceOne .dot.one,
+#computerFaceOne .dot.three,
+#computerFaceOne .dot.four,
+#computerFaceOne .dot.six,
+#computerFaceOne .dot.seven,
+#computerFaceOne .dot.nine {
+    visibility: hidden;
+}
+
+#computerFaceTwo .dot.three,
+#computerFaceTwo .dot.four,
+#computerFaceTwo .dot.five,
+#computerFaceTwo .dot.six,
+#computerFaceTwo .dot.seven,
+#computerFaceTwo .dot.eight {
+    visibility: hidden;
+}
+
+#computerFaceThree .dot.one,
+#computerFaceThree .dot.four,
+#computerFaceThree .dot.six,
+#computerFaceThree .dot.nine {
+    visibility: hidden;
+}
+
+#computerFaceFour .dot.four,
+#computerFaceFour .dot.five,
+#computerFaceFour .dot.six{
+    visibility: hidden;
+}
+
+#computerFaceFive .dot.four,
+#computerFaceFive .dot.six{
+    visibility: hidden;
+}
+
+#computerFaceSix .dot.five {
+    visibility: hidden;
 }
